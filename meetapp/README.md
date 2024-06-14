@@ -65,9 +65,8 @@ collax/
 │   │   ├── index.js         # Entry point
 │   └── package.json         # Client dependencies and scripts
 └── server/                  # Backend application (Node.js, Express.js)
-    ├── index.js             # Entry point
+    ├── server.js            # Entry point
     ├── package.json         # Server dependencies and scripts
-    └── socket.js            # Socket.io event handling
 ```
 ---
 
