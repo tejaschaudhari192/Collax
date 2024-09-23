@@ -57,14 +57,14 @@ The project is divided into two main folders: `client` and `server`.
 
 ```
 collax/
-├── client/                  # Frontend application (React)
+├── meetapp/                 # Frontend application (React)
 │   ├── public/              # Public assets
 │   ├── src/                 # Source files
 │   │   ├── components/      # React components
 │   │   ├── App.js           # Main App component
 │   │   ├── index.js         # Entry point
 │   └── package.json         # Client dependencies and scripts
-└── server/                  # Backend application (Node.js, Express.js)
+└── backend/                 # Backend application (Node.js, Express.js)
     ├── server.js            # Entry point
     ├── package.json         # Server dependencies and scripts
 ```
