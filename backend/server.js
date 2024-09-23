@@ -12,11 +12,11 @@ const httpServer = http.createServer(app);
 
 const io = new Server(httpServer, {
     cors: {
-        origin: "http://localhost:3000", // Allow requests from this origin
+        origin: "http://localhost:5173/", // Allow requests from this origin
         methods: ["GET", "POST"] // Allow only GET and POST requests
     }
 });
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5173;
 
 const { ExpressPeerServer } = require('peer');
 const peerServer = ExpressPeerServer(httpServer, {
